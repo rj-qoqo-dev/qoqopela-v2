@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/qoqopela-v2/static/css/main.d7da34c1.css",
-    "main.js": "/qoqopela-v2/static/js/main.694a54f2.js",
+    "main.js": "/qoqopela-v2/static/js/main.cf83764a.js",
     "static/media/video1.mp4": "/qoqopela-v2/static/media/video1.358c916b2411e363e01d.mp4",
     "static/media/svg-1.svg": "/qoqopela-v2/static/media/svg-1.f79dc5bc4684c7565cf92a9ec29e9b57.svg",
     "index.html": "/qoqopela-v2/index.html",
     "main.d7da34c1.css.map": "/qoqopela-v2/static/css/main.d7da34c1.css.map",
-    "main.694a54f2.js.map": "/qoqopela-v2/static/js/main.694a54f2.js.map"
+    "main.cf83764a.js.map": "/qoqopela-v2/static/js/main.cf83764a.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.694a54f2.js"
+    "static/js/main.cf83764a.js"
   ]
 }
