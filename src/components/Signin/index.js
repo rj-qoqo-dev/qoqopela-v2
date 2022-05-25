@@ -6,7 +6,7 @@ const SignIn = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">Qoqopela</Icon>
+          <Icon to="/qoqopela-v2">Qoqopela</Icon>
           <FormContent>
             <Form action='#'>
               <FormH1>Sign in to your account</FormH1>

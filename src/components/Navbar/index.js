@@ -29,7 +29,7 @@ const Navbar = ({toggle}) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>Qoqopela</NavLogo>
+          <NavLogo to='/qoqopela-v2' onClick={toggleHome}>Qoqopela</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
