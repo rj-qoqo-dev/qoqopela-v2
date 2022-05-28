@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: 'Sign Up',
   headline: 'Create a Profile',
-  description: "It's free!",
+  description: "It's kind of free!",
   buttonLabel: 'Get Started',
   imgStart: false,
   img: require('../../images/svg-1.svg').default,
