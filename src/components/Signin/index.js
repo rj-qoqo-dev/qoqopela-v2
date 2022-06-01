@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Text } from './SigninElements'
+import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Text, QoqoLogo } from './SigninElements'
 
 const SignIn = () => {
   return (
     <>
       <Container>
         <FormWrap>
-          <Icon to="/qoqopela-v2">Qoqopela</Icon>
+          <Icon to="/qoqopela-v2"><QoqoLogo src={process.env.PUBLIC_URL + '/QoqopelaLogo.png'}/>oqopela</Icon>
           <FormContent>
             <Form action='#'>
               <FormH1>Sign in to your account</FormH1>

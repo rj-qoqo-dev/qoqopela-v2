@@ -107,3 +107,8 @@ export const Text = styled.span`
   color: #fff;
   font-size: 14px;
 `;
+
+export const QoqoLogo = styled.img`
+  height: 40px;
+  width: 40px;
+`

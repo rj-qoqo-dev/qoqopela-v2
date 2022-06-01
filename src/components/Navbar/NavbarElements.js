@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? '#000': 'transparent')};
+  background: ${({ scrollNav }) => (scrollNav ? '#37291F' : 'transparent')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -99,7 +99,7 @@ export const NavBtnLink = styled(LinkR)`
   background: #07D2B8;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: #37291F;
   font-size: 16px;
   outline: none;
   border: none;
@@ -110,6 +110,12 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #37291F;
   }
 `;
+
+export const QoqoLogo = styled.img`
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+`

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { IconContext } from 'react-icons';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, QoqoLogo } from './NavbarElements';
 import { animateScroll as scroll } from 'react-scroll/modules';
 
 const Navbar = ({toggle}) => {
@@ -29,7 +29,7 @@ const Navbar = ({toggle}) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/qoqopela-v2' onClick={toggleHome}>Qoqopela</NavLogo>
+          <NavLogo to='/qoqopela-v2' onClick={toggleHome} ><QoqoLogo src={process.env.PUBLIC_URL + '/QoqopelaLogo.png'}/>oqopela</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
