@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/qoqopela-v2/static/css/main.d7da34c1.css",
-    "main.js": "/qoqopela-v2/static/js/main.54ca348b.js",
+    "main.css": "/qoqopela-v2/static/css/main.44765391.css",
+    "main.js": "/qoqopela-v2/static/js/main.208ccbd7.js",
+    "static/js/765.335b93ac.chunk.js": "/qoqopela-v2/static/js/765.335b93ac.chunk.js",
     "static/media/video1.mp4": "/qoqopela-v2/static/media/video1.358c916b2411e363e01d.mp4",
+    "static/media/flags@2x.png": "/qoqopela-v2/static/media/flags@2x.140042eba8c90ae1cede.png",
+    "static/media/flags.png": "/qoqopela-v2/static/media/flags.ae53191452bb217f0fa6.png",
     "static/media/matchup.svg": "/qoqopela-v2/static/media/matchup.ef97a975f21c7028662c909ff081df95.svg",
     "static/media/explore.svg": "/qoqopela-v2/static/media/explore.cccf8fadcab4f5ad50f0aa038a9c0aee.svg",
     "static/media/freeStuff.svg": "/qoqopela-v2/static/media/freeStuff.94aff384caa7f8c40c1ee4f0e1971925.svg",
+    "static/media/build.svg": "/qoqopela-v2/static/media/build.20adbc8b222218dc528126dc3c4c1702.svg",
     "static/media/signup.svg": "/qoqopela-v2/static/media/signup.9985de4873d44d34c9a19bf67047ac6e.svg",
     "index.html": "/qoqopela-v2/index.html",
-    "main.d7da34c1.css.map": "/qoqopela-v2/static/css/main.d7da34c1.css.map",
-    "main.54ca348b.js.map": "/qoqopela-v2/static/js/main.54ca348b.js.map"
+    "main.44765391.css.map": "/qoqopela-v2/static/css/main.44765391.css.map",
+    "main.208ccbd7.js.map": "/qoqopela-v2/static/js/main.208ccbd7.js.map",
+    "765.335b93ac.chunk.js.map": "/qoqopela-v2/static/js/765.335b93ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7da34c1.css",
-    "static/js/main.54ca348b.js"
+    "static/css/main.44765391.css",
+    "static/js/main.208ccbd7.js"
   ]
 }
