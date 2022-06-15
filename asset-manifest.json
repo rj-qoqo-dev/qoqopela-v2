@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/qoqopela-v2/static/css/main.44765391.css",
-    "main.js": "/qoqopela-v2/static/js/main.208ccbd7.js",
+    "main.js": "/qoqopela-v2/static/js/main.c8e68d76.js",
     "static/js/765.335b93ac.chunk.js": "/qoqopela-v2/static/js/765.335b93ac.chunk.js",
     "static/media/video1.mp4": "/qoqopela-v2/static/media/video1.358c916b2411e363e01d.mp4",
     "static/media/flags@2x.png": "/qoqopela-v2/static/media/flags@2x.140042eba8c90ae1cede.png",
@@ -13,11 +13,11 @@
     "static/media/signup.svg": "/qoqopela-v2/static/media/signup.9985de4873d44d34c9a19bf67047ac6e.svg",
     "index.html": "/qoqopela-v2/index.html",
     "main.44765391.css.map": "/qoqopela-v2/static/css/main.44765391.css.map",
-    "main.208ccbd7.js.map": "/qoqopela-v2/static/js/main.208ccbd7.js.map",
+    "main.c8e68d76.js.map": "/qoqopela-v2/static/js/main.c8e68d76.js.map",
     "765.335b93ac.chunk.js.map": "/qoqopela-v2/static/js/765.335b93ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44765391.css",
-    "static/js/main.208ccbd7.js"
+    "static/js/main.c8e68d76.js"
   ]
 }
