@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video1.mp4'
-import { Button } from '../ButtonElement'
+import { ButtonS } from '../ButtonElement'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
 
 const HeroSection = () => {
@@ -21,14 +21,14 @@ const HeroSection = () => {
          Enhance the future of any close partnership, whether intimate, family or friendship, using the most modern concepts from science, psychology and mediation, while integrating the best of traditional cultural practices. 
         </HeroP>
         <HeroBtnWrapper>
-          <Button 
+          <ButtonS 
           to="signup"
           onMouseEnter={onHover}
           onMouseLeave={onHover}
           primary="true"
           dark="true">
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </ButtonS>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
