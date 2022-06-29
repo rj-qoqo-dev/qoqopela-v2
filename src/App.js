@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/qoqopela-v2" element={<Home />} exact />
+        <Route path="/" element={<Home />} exact />
         <Route path="/signin" element={<SigninPage />} exact />
         <Route path="/profile" element={<ProfilePage />} exact />
       </Routes>
