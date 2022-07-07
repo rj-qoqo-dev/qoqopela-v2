@@ -51,19 +51,31 @@ const StepTwo = () => {
           label="What is your height?"
           variant="outlined"
         />
-        <FormControl style={{width: "100%", marginBottom: "1rem"}} variant="outlines">
-          <InputLabel>Password</InputLabel>
-          <OutlinedInput
-            labelWidth={70}
-            endAdornment={
-              <InputAdornment
-              position="end">
-                <IconButton
-                edge="end" />
-              </InputAdornment>
-            }
-          />
-        </FormControl>
+        <TextField
+         style={{width: "100%", marginBottom: "1rem"}}
+          label="How energetic would you rate yourself?"
+          variant="outlined"
+        />
+        <TextField
+         style={{width: "100%", marginBottom: "1rem"}}
+          label="How shy or aloof would you rate yourself?"
+          variant="outlined"
+        />
+        <TextField
+         style={{width: "100%", marginBottom: "1rem"}}
+          label="How much are you noticed you when you walk into a room?"
+          variant="outlined"
+        />
+        <TextField
+         style={{width: "100%", marginBottom: "1rem"}}
+          label="How would you rate your “hotness”?"
+          variant="outlined"
+        />
+        {/* <TextField
+         style={{width: "100%", marginBottom: "1rem"}}
+          label="How stylish or fashionable do you consider yourself?"
+          variant="outlined"
+        /> */}
       </form>
       </div>
     </div>
