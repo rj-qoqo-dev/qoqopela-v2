@@ -11,6 +11,7 @@ const useStyles = makeStyles({
     justifyContent: "center",
     position: "relative",
     zIndex: 5,
+    background: "white",
   },
   formContainer: {
     position: "relative",

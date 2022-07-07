@@ -10,6 +10,8 @@ const useStyles = makeStyles({
     width: "50%",
     margin: "6rem auto",
     border: "1px solid #999",
+    background: "white",
+    
     "& .MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root Mui-active css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root":{
       color: "red"
     },
