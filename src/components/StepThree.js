@@ -1,6 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@mui/styles'
-import { Typography, Button, Grid, Checkbox, TextField, OutlinedInput, FormControl, InputLabel, InputAdornment, IconButton } from '@mui/material'
+import { Typography, Button, Grid, Checkbox, TextField, OutlinedInput, FormControl, InputLabel, InputAdornment, IconButton, Slider } from '@mui/material'
 import IntlTelInput from 'react-intl-tel-input'
 import "react-intl-tel-input/dist/main.css"
 
@@ -23,9 +23,9 @@ const useStyles = makeStyles({
   },
 })
 
-
 const StepThree = () => {
   const classes = useStyles();
+
   return (
     <div className={classes.mainContainer}>
       <Typography variant="h5" style={{color: "#999", textAlign: "center"}}>
@@ -36,38 +36,78 @@ const StepThree = () => {
     height: "auto",
     padding: "2rem"}}>
       <form>
-        <TextField
-          style={{width: "100%", marginBottom: "1rem"}}
-          label="First Name"
-          variant="outlined"
-        />
-        <TextField
-         style={{width: "100%", marginBottom: "1rem"}}
-          label="Last Name"
-          variant="outlined"
-        />
-        <IntlTelInput
-        style={{width: "100%", marginBottom: "1rem"}}
-          preferredCountries={["am"]}
-        />
-        <TextField
-         style={{width: "100%", marginBottom: "1rem"}}
-          label="Email"
-          variant="outlined"
-        />
-        <FormControl style={{width: "100%", marginBottom: "1rem"}} variant="outlines">
-          <InputLabel>Password</InputLabel>
-          <OutlinedInput
-            labelWidth={70}
-            endAdornment={
-              <InputAdornment
-              position="end">
-                <IconButton
-                edge="end" />
-              </InputAdornment>
-            }
-          />
-        </FormControl>
+      <Typography id="certified" gutterBottom>
+        Rate your “publicly-certified” status:
+      </Typography>
+      <Slider
+        aria-label="Rate your “publicly-certified” status"
+        defaultValue={5}
+        valueLabelDisplay="auto"
+        step={1}
+        marks
+        min={0}
+        max={10}
+      />
+      <Typography id="accomplishments" gutterBottom>
+      Rate your life accomplishments to date:
+      </Typography>
+      <Slider
+        aria-label="Rate your life accomplishments to date"
+        defaultValue={5}
+        valueLabelDisplay="auto"
+        step={1}
+        marks
+        min={0}
+        max={10}
+      />
+       <Typography id="ideas" gutterBottom>
+       Rate your ability to think of game-changing ideas:
+      </Typography>
+      <Slider
+        aria-label="Rate your ability to think of game-changing ideas"
+        defaultValue={5}
+        valueLabelDisplay="auto"
+        step={1}
+        marks
+        min={0}
+        max={10}
+      />
+      <Typography id="talents" gutterBottom>
+      Rate your natural mental or physical talents:
+      </Typography>
+      <Slider
+        aria-label="Rate your natural mental or physical talents"
+        defaultValue={5}
+        valueLabelDisplay="auto"
+        step={1}
+        marks
+        min={0}
+        max={10}
+      />
+      <Typography id="fitness" gutterBottom>
+      Your physical fitness (aerobic)?:
+      </Typography>
+      <Slider
+        aria-label="Your physical fitness (aerobic)?"
+        defaultValue={5}
+        valueLabelDisplay="auto"
+        step={1}
+        marks
+        min={0}
+        max={10}
+      />
+       <Typography id="fitness-2" gutterBottom>
+      Your physical fitness (anaerobic)?:
+      </Typography>
+      <Slider
+        aria-label="Your physical fitness (anaerobic)?"
+        defaultValue={5}
+        valueLabelDisplay="auto"
+        step={1}
+        marks
+        min={0}
+        max={10}
+      />
       </form>
       </div>
     </div>
