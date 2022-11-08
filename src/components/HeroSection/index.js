@@ -18,7 +18,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>MyQoqopela</HeroH1>
         <HeroP>
-         Enhance the future of any close partnership, whether intimate, family or friendship, using the most modern concepts from science, psychology and mediation, while integrating the best of traditional cultural practices. 
+         Enhance the future and past of any close partnership, whether intimate, family or friendship, using the most modern concepts from science, psychology and mediation, while integrating the best of traditional cultural practices. 
         </HeroP>
         <HeroBtnWrapper>
           <ButtonS 
