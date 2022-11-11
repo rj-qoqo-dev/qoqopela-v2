@@ -22,10 +22,10 @@ const HeroSection = () => {
   <div id="content" class="left">
     <div id="listDiv" class="left">
       <ul>
-        <li>We enhance your future and past partnerships with a one of a kind system that tells truth</li>
-        <li>Whether intimate, family or friendship we can help you find or better your connection</li>
-        <li>Using the most modern concepts from science, psychology and mediation </li>
-        <li>We integrate the best of traditional and cultural practices which have best tested in over 26 countries </li>
+        <li>Build and test relationships</li>
+        <li>Eliminate the rough patches</li>
+        <li>Reveal your inner ikigai</li>
+        <li>Find your true partner</li>
       </ul>
     </div>
   </div>
