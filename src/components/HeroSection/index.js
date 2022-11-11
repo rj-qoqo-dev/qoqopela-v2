@@ -18,18 +18,12 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>MyQoqopela</HeroH1>
         <HeroP>
-        <div id="wrapper" class="left">
-    <div id="content" class="left">
-        <div id="listDiv" class="left">
-            <ul>
-                <li> Enhance future and past partnerships</li> 
-                <li> Whether intimate, family or friendship we can help you find or better your connection</li> 
-                <li> Using the most modern concepts from science, psychology and mediation </li>
-                <li> We integrate the best of traditional cultural practices. </li>
-            </ul>
-        </div>
-    </div>
-</div>
+     <ul>
+  <li>Enhance future and past partnerships</li>
+  <li>Whether intimate, family or friendship we can help you find or better your connection</li>
+  <li>Using the most modern concepts from science, psychology and mediation</li>
+   <li>We integratethe best of traditional cultural practices.</li>
+</ul>
         </HeroP>
         <HeroBtnWrapper>
           <ButtonS 
